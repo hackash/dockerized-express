@@ -1,14 +1,15 @@
 {
   "name": "dockerized-express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Dockerized Express application starter",
   "main": "server/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "pm2 start process.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashot Harutyunyan <ashot.todo@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/hackash/express-docker-starter",
   "dependencies": {
     "express": "^4.16.2"
   }

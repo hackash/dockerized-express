@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const config = require('config');
 const router = require('router');
 
 module.exports.start = () => {
@@ -16,7 +17,8 @@ module.exports.start = () => {
     router.init(exRouter);
 
     /* Bootstrap the app */
-    app.listen(3000, () => {
-        console.log('listening on 3000');
+    let port = process.env.PORT || config.port;
+    app.listen(port, () => {
+        console.log(`Express server in docker container listening on port ${port}`);
     });
 };

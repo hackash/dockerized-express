@@ -27,3 +27,7 @@ Thumbs.db
 # Exceptions #
 ######################
 !server/src/node_modules
+
+# Local configuration #
+######################
+server/src/node_modules/config/dev.json
