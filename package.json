@@ -1,0 +1,14 @@
+{
+  "name": "express-docker-starter",
+  "version": "0.0.0",
+  "description": "Express docker starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashot Harutyunyan <ashot.todo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
