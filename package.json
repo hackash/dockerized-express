@@ -1,9 +1,10 @@
 {
-  "name": "express-docker-starter",
+  "name": "dockerized-express",
   "version": "0.0.0",
-  "description": "Express docker starter",
-  "main": "index.js",
+  "description": "Dockerized Express application starter",
+  "main": "server/index.js",
   "scripts": {
+    "start": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashot Harutyunyan <ashot.todo@gmail.com>",

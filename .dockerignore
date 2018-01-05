@@ -1,0 +1,8 @@
+# Node modules #
+######################
+node_modules
+npm-debug.log
+
+# Exceptions #
+######################
+!server/src/node_modules
