@@ -4,12 +4,11 @@
 
 ## To run the container locally
 
-1. Install yarn package manager
-2. Install app packages ```yarn install```
-3. Add local configuration file ```[dev.json]``` under ```server/src/node_modules/config```
-4. Create docker image ``` docker build -t [imagename:tag] . ```
-5. Run container ``` docker run -p 9000:3000 -d [imagename:tag] ```
-6. Test it using this command curl ```localhost:9000``` 
+1. Install app packages ```npm install```
+2. Add local configuration file ```[dev.json]``` under ```server/src/node_modules/config```
+3. Create docker image ``` docker build -t [imagename:tag] . ```
+4. Run container ``` docker run -p 9000:3000 -d [imagename:tag] ```
+5. Test it using this command curl ```localhost:9000``` 
 
 ## To ship the container 
 
