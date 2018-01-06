@@ -4,12 +4,11 @@
   "description": "Dockerized Express application starter",
   "main": "server/index.js",
   "scripts": {
-    "start": "pm2 start process.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashot Harutyunyan <ashot.todo@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/hackash/express-docker-starter",
+  "repository": "https://github.com/hackash/dockerized-express",
   "dependencies": {
     "express": "^4.16.2"
   }

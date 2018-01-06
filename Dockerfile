@@ -1,15 +1,16 @@
-FROM node:latest
+FROM node:carbon
 
 WORKDIR /app
 
+ENV NODE_ENV=production
+
 COPY package*.json ./
-COPY process.yml ./
+COPY process.json ./
 COPY server /app
 
-RUN npm install
-
 RUN npm install pm2 -g
+RUN npm install
 
 EXPOSE 3000
 
-CMD ['npm', 'start']
+CMD pm2-runtime process.json
