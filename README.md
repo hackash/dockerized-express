@@ -26,5 +26,5 @@
    > ``` docker run -e KEYMETRICS_PUBLIC=XXXX -e KEYMETRICS_SECRET=YYYY -p 9000:3000 -d [imagename:tag] ```
 ## License
 
-MIT. Copyright (c) 2015-1028 <a href="https://github.com/hackash"> Ashot Harutyunyan </a>
+MIT. Copyright (c) 2015-2018 <a href="https://github.com/hackash"> Ashot Harutyunyan </a>
 
