@@ -4,12 +4,15 @@
   "description": "Dockerized Express application starter",
   "main": "server/index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashot Harutyunyan <ashot.todo@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/hackash/dockerized-express",
   "dependencies": {
-    "express": "^4.16.2"
+    "ejs": "^2.6.1",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.4.0"
   }
 }
